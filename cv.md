@@ -3,7 +3,7 @@
 ## Contacts
 
 e-mail: frostcrawler@yandex.ru  
-discord : frostcrawler_
+discord : frostcrawler_  
 tel: +7(926) xxx-xx-xx
 
 ## About Me
