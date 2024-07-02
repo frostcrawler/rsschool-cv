@@ -2,11 +2,127 @@
 <html lang="ru">
     <head>
         <meta charset="UTF-8">
-
-        <title>Hello</title>
-
+        <link rel="stylesheet" href="style.css">
+        <title>CV</title>
     </head>
-    <body>
+    <body>        
+        <header>
+            <nav>
+                <a href="#Contacts">Contacts</a>
+                <a href="#About_Me">About Me</a>
+                <a href="#My_Skills">My Skills</a>
+                <a href="#Code_Example">Code Example</a>
+                <a href="#Work_Experience">Work Experience</a>
+                <a href="#Education">Education</a>
+                <a href="#Languages">Languages</a>
+            </nav>    
+        </header>
+        <main>
+            <div>
+                <img class="cv_photo" src="img/photo.jpeg" alt="My Photo" width="300" style="vertical-align: middle; display: inline-block;">
+                <h1  style="vertical-align: middle; display: inline-block; margin-left: 100px;">Kirill Bryukhan</h1>
+            </div>
+            <br>
+            
+            <div class="chapter">
+                <h2 class="chapter_title">Contacts</h2>
+                <p id="Contacts" class="chapter_text">  
+                    <ul class="chapter_list_title">
+                        <li class="chapter_list_el">e-mail: frostcrawler@yandex.ru</li>
+                        <li class="chapter_list_el">discord : frostcrawler_ </li>
+                        <li class="chapter_list_el">tel: +7(926) xxx-xx-xx</li>
+                    </ul>
+                    
+                </p>
+            </div>
+            
+            <div class="chapter">
+                <h2 class="chapter_title">About Me</h2>
+                <p id="About_Me" class="chapter_text"> 
+                    I strive to learn new things. My goal is to master the necessary technologies and become a developer.
+                </p>
+               
+            </div>
+            
+            <div class="chapter">
+                <h2 class="chapter_title">My Skills</h2>                                  
+                <p id="My_Skills" class="chapter_text">    
+                    <ul>
+                        <li class="chapter_list_el">Git & Github</li>
+                        <li class="chapter_list_el">HTML</li>
+                        <li class="chapter_list_el">CSS</li>
+                        <li class="chapter_list_el">JavaScript</li>
+                    </ul>
+                </p>
 
+            </div>
+
+            <div class="chapter">
+                <h2 class="chapter_title">Code Example</h2>
+                <p id="Code_Example" class="chapter_text">
+function pow(x, n) {
+    if (n < 0) return NaN;
+    if (Math.round(n) != n) return NaN;
+        let result = 1;
+              
+        for (let i = 0; i < n; i++) {
+            result *= x;
+        }
+                      
+    return result;
+}
+
+                </p>
+
+            </div>
+            
+            <div class="chapter">
+                <h2 class="chapter_title">Work Experience</h2>            
+                <p id="Work_Experience" class="chapter_text">
+                    None yet;
+                </p>
+
+            </div>
+
+            <div class="chapter">
+                <h2 class="chapter_title">Education</h2>
+                <p id="Education" class="chapter_text">
+                    Middle School
+                </p>
+
+            </div>
+            
+            <div class="chapter">
+                <h2 class="chapter_title">Languages</h2>
+                <p id="Languages" class="chapter_text">
+                    <ul>
+                        <li class="chapter_list_el">English A2/B1</li>
+                        <li class="chapter_list_el">Russian C2</li>
+                    </ul>
+                </p>
+
+            </div>
+         </main>    
+
+         <footer>
+            <ul>
+                <li class="footer_menu">
+                        2024
+                        <a href="https://github.com/frostcrawler">Github / frostcrawler</a>
+                        <a href="https://rs.school/courses/javascript-preschool-ru;">
+                            <img src="https://rs.school/favicon.svg" style="vertical-align: middle;"> 
+                            <span style="margin-left: 10px;">
+                            JavaScript / Front-end Course
+                            <span>
+                        </a>
+                        
+                    
+                    
+                </li>
+            </ul>
+
+        </footer>
+       
     </body>
 </html>
+

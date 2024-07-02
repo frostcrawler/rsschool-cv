@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+  }
+
+h1 {
+    font-family: Arial;
+    margin-left: 10px;
+    color:#3D4EA0;
+    font-size: 40pt;
+}
+
+html {
+    background-image: url("img/background.jpg");
+    background-repeat: repeat;
+}
+
+body { 
+    background-color: rgb(240, 255, 255, 0.95);
+    width: 90%;
+    min-width: 800px;
+    max-width: 1600px;
+    margin-left: auto; 
+    margin-right: auto;
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: gray;
+}
+
+header { 
+    text-align: center;
+    padding-top: 1px; 
+    padding-bottom: 1px;
+    background-color: rgb(240, 255, 255, 0.95);
+}
+
+nav {
+    margin-top: 20px;
+}
+
+
+footer {
+    text-align: center;
+    padding-top: 1px; 
+    padding-bottom: 1px;        
+}
+
+header a {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left:10px;
+    color: #3D4EA0;
+}
+
+header a:visited {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left:10px;
+    color: #3D4EA0;    
+}
+
+header a:hover {
+    font-family: Arial;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left:10px;
+    color: #23A8E1;   
+}
+
+footer a {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left:10px;
+    color: #3D4EA0;
+}
+
+footer a:visited {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left:10px;
+    color: #3D4EA0;
+}
+
+footer a:hover {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left:10px;
+    color: #3D4EA0;   
+}
+
+main {
+    padding-top: 35px;
+    text-align: left;
+}
+
+hr { 
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.chapter {
+    width: 49%;
+    min-width: 400px;
+    display:inline-table;
+    margin-top: 30px;
+}
+
+.chapter_title {
+    font-family: Arial;
+    font-size: 28px;
+    color: #3D4EA0;
+    margin-left: 30px;
+}
+
+.chapter_text { 
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:30px;
+}
+
+.chapter_list_title {
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:30px;
+}
+
+.chapter_list_el {
+    list-style-type:square;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:10px;
+}
+
+.chapter_divider
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.cv_photo {
+    border-radius: 1000000px;
+    border-color: dimgray;
+    border-width: 2px;
+    border-style:solid;
+    margin-left: 10px;
+}
+
+#Code_Example {
+    background-color: #DEF1F7;
+    white-space: pre-wrap;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.footer_menu {
+    font-family: Arial;
+    font-size: 18px;
+    list-style-type:none;
+    min-width: 400px;
+}
+  
