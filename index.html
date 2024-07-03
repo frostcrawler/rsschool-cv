@@ -12,6 +12,7 @@
                 <a href="#About_Me">About Me</a>
                 <a href="#My_Skills">My Skills</a>
                 <a href="#Code_Example">Code Example</a>
+                <a href="#Projects">Projects</a>
                 <a href="#Work_Experience">Work Experience</a>
                 <a href="#Education">Education</a>
                 <a href="#Languages">Languages</a>
@@ -19,15 +20,15 @@
         </header>
         <main>
             <div>
-                <img class="cv_photo" src="img/photo.jpeg" alt="My Photo" width="300" style="vertical-align: middle; display: inline-block;">
-                <h1  style="vertical-align: middle; display: inline-block; margin-left: 100px;">Kirill Bryukhan</h1>
+                <img class="cv_photo" src="img/photo.jpeg" alt="My Photo" width="300">
+                <h1>Kirill Bryukhan</h1>
             </div>
             <br>
             
             <div class="chapter">
                 <h2 class="chapter_title">Contacts</h2>
                 <p id="Contacts" class="chapter_text">  
-                    <ul class="chapter_list_title">
+                    <ul>
                         <li class="chapter_list_el">e-mail: frostcrawler@yandex.ru</li>
                         <li class="chapter_list_el">discord : frostcrawler_ </li>
                         <li class="chapter_list_el">tel: +7(926) xxx-xx-xx</li>
@@ -48,33 +49,68 @@
                 <h2 class="chapter_title">My Skills</h2>                                  
                 <p id="My_Skills" class="chapter_text">    
                     <ul>
-                        <li class="chapter_list_el">Git & Github</li>
-                        <li class="chapter_list_el">HTML</li>
-                        <li class="chapter_list_el">CSS</li>
-                        <li class="chapter_list_el">JavaScript</li>
+                        <li class="chapter_list_el_skills"><img src="img/git_icon.png" height="48px">
+                            <p class="chapter_p_skills">
+                                Git & Github
+                            </p>                           
+                        </li>
+
+                        <li class="chapter_list_el_skills"><img src="img/html.png" height="48px">
+                            <p class="chapter_p_skills">
+                                HTML 5
+                            </p>                           
+                        </li>
+
+                        <li class="chapter_list_el_skills"><img src="img/css.png" height="48px">
+                            <p class="chapter_p_skills">
+                                CSS 3
+                            </p>                           
+                        </li>
+
+                        <li class="chapter_list_el_skills"><img src="img/js.png" height="48px">
+                            <p class="chapter_p_skills">
+                                JavaScript
+                            </p>                           
+                        </li>
+                      
                     </ul>
                 </p>
 
             </div>
 
             <div class="chapter">
-                <h2 class="chapter_title">Code Example</h2>
-                <p id="Code_Example" class="chapter_text">
+                <h2 id="Code_Example" class="chapter_title">Code Example</h2>
+                <div class="cb_wrapper">
+                    <blockquote class="cb">
 function pow(x, n) {
     if (n < 0) return NaN;
-    if (Math.round(n) != n) return NaN;
+        if (Math.round(n) != n) return NaN;
+                              
         let result = 1;
-              
+                              
         for (let i = 0; i < n; i++) {
             result *= x;
         }
-                      
+                              
     return result;
 }
-
-                </p>
-
+                    </blockquote>
+            </div>  
+              
             </div>
+
+            <div class="chapter">
+                <h2 class="chapter_title">Projects</h2>
+                <p id="Projects" class="chapter_text">  
+                    <ul>
+                        <li class="chapter_list_el"><a class="chapter_link" href="https://frostcrawler.github.io/rsschool-cv/cv" target="_blank">CV #1 (Markdown)</a></li>
+                        <li class="chapter_list_el"><a class="chapter_link" href="https://frostcrawler.github.io/rsschool-cv/" target="_blank">CV #2 (HTML)</a></li>
+                    </ul>
+                    
+                </p>
+            </div>
+
+
             
             <div class="chapter">
                 <h2 class="chapter_title">Work Experience</h2>            
@@ -104,23 +140,13 @@ function pow(x, n) {
             </div>
          </main>    
 
-         <footer>
-            <ul>
-                <li class="footer_menu">
-                        2024
-                        <a href="https://github.com/frostcrawler">Github / frostcrawler</a>
-                        <a href="https://rs.school/courses/javascript-preschool-ru;">
-                            <img src="https://rs.school/favicon.svg" style="vertical-align: middle;"> 
-                            <span style="margin-left: 10px;">
-                            JavaScript / Front-end Course
-                            <span>
-                        </a>
-                        
-                    
-                    
-                </li>
-            </ul>
-
+        <hr>
+        <footer>
+            <p>2024</p>
+            <a class="a_center" href="https://github.com/frostcrawler">Github</a>
+            <a class="a_right" href="https://rs.school/courses/javascript-preschool-ru">
+                <img class="filter" src="img/logo.svg" alt="RS School logo" height="50px"> 
+            </a>
         </footer>
        
     </body>
