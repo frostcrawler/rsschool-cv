@@ -3,14 +3,13 @@
   }
 
 h1 {
-    font-family: Arial;
+    font-family: cursive;
     margin-left: 10px;
     color:#3D4EA0;
     font-size: 40pt;
     vertical-align: middle; 
     display: inline-block; 
     margin-left: 100px;
-
 }
 
 html {
@@ -29,6 +28,7 @@ body {
     border-style: solid; 
     border-color: gray;
     border-radius: 20px;
+    
 }
 
 header { 
@@ -36,12 +36,12 @@ header {
     padding-top: 1px; 
     padding-bottom: 1px;
     
+    
 }
 
 nav {
     margin-top: 20px;
 }
-
 
 footer {
     display: grid;
@@ -52,8 +52,8 @@ footer {
 }
 
 header a {
-    font-family: Arial;
-    font-size: 24px;
+    font-family: cursive;
+    font-size: 22px;
     font-weight: bold;
     margin-left:10px;
     color: #3D4EA0;
@@ -61,16 +61,16 @@ header a {
 }
 
 header a:visited {
-    font-family: Arial;
-    font-size: 24px;
+    font-family: cursive;
+    font-size: 22px;
     font-weight: bold;
     margin-left:10px;
     color: #3D4EA0;    
 }
 
 header a:hover {
-    font-family: Arial;
-    font-size: 24px;
+    font-family: cursive;
+    font-size: 22px;
     font-weight: bold;
     margin-left:10px;
     color: azure;
@@ -119,8 +119,6 @@ li img {
     vertical-align: middle;
 }
 
-
-
 .chapter {
     width: 49%;
     min-width: 400px;
@@ -129,7 +127,8 @@ li img {
 }
 
 .chapter_title {
-    font-family: Arial;
+    font-family: cursive;
+    font-weight: 900;
     font-size: 28px;
     color: #3D4EA0;
     margin-left: 30px;
@@ -149,9 +148,7 @@ li img {
     margin-top: 0;
     margin-bottom: 0;
     margin-left:30px;
-    
 }
-
 
 li::marker {
     color: #3D4EA0;
