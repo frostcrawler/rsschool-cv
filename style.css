@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+  }
+
+h1 {
+    font-family: cursive;
+    margin-left: 10px;
+    color:#3D4EA0;
+    font-size: 40pt;
+    vertical-align: middle; 
+    display: inline-block; 
+    margin-left: 100px;
+}
+
+html {
+    background-image: url("img/background.jpg");
+    background-repeat: repeat;
+}
+
+body { 
+    background-color: rgb(240, 255, 255, 0.95);
+    width: 90%;
+    min-width: 600px;
+    max-width: 1200px;
+    margin-left: auto; 
+    margin-right: auto;
+    border-width: 1px; 
+    border-style: solid; 
+    border-color: gray;
+    border-radius: 20px;
+}
+
+header { 
+    text-align: center;
+}
+
+nav {
+    padding-top: 20px;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 100%;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+header a {
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left:10px;
+    color: #3D4EA0;
+    text-decoration: none;
+}
+
+header a:visited {
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left:10px;
+    color: #3D4EA0;    
+}
+
+header a:hover {
+    font-family: cursive;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left:10px;
+    color: azure;
+    background-color: #3D4EA0;   
+}
+
+footer a {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left:10px;
+    color: #3D4EA0;
+}
+
+footer a:visited {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left:10px;
+    color: #3D4EA0;
+}
+
+footer a:hover {
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left:10px;
+    color: #3D4EA0;   
+}
+
+main {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+hr {
+    background-color:#3D4EA0;
+    margin-left: 30px;
+    margin-right: 30px;
+    border: none;
+    height: 1px;
+}
+
+li img {
+    vertical-align: middle;
+}
+
+.chapter {
+    width: 49%;
+    min-width: 400px;
+    display:inline-table;
+    margin-top: 30px;
+}
+
+.chapter_title {
+    font-family: cursive;
+    font-weight: 900;
+    font-size: 28px;
+    color: #3D4EA0;
+    margin-left: 30px;
+}
+
+.chapter_text { 
+    font-family: cursive;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:30px;
+}
+
+.chapter_list_title {
+    font-family: Arial;
+    font-size: 22px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:30px;
+}
+
+li::marker {
+    color: #3D4EA0;
+  }
+
+.chapter_list_el {
+    list-style-type:disc;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:10px;
+    line-height: 30px;
+
+}
+
+.chapter_list_el_skills {
+    list-style-type:none;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left:0px;
+    line-height: 30px;
+
+}
+
+.chapter_p_skills {
+    vertical-align: middle; 
+    display: inline; 
+    margin-left: 10px; 
+    font-size: 24px;
+    line-height: 60px;
+}
+
+.chapter a {
+    color:#3D4EA0;
+}
+
+.chapter a:visited {
+    color:#3D4EA0;
+}
+
+.chapter a:hover {
+    color:#3D4EA0;
+  
+}
+
+.cv_photo {
+    border-radius: 1000000px;
+    border-color: #3D4EA0;
+    border-width: 3px;
+    border-style:solid;
+    margin-left: 10px;
+    vertical-align: middle; 
+    display: inline-block;
+}
+
+.cb_wrapper {
+    background: #DEF1F7;
+    border-color: dimgray;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 30px; 
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.cb {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 18px;
+    white-space: pre-wrap;
+    border-width: 1px;
+    border-radius: 5px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+footer p {
+    justify-self: start; 
+    font-family: Arial;
+    font-size: 24px;
+    color: #3D4EA0;
+}
+
+.a_center {
+    justify-self: center;
+}
+
+.a_right {
+    justify-self: end;
+}
+
+.filter {
+    filter: invert(32%) sepia(11%) saturate(3405%) hue-rotate(192deg) brightness(94%) contrast(95%);
+    
+}
