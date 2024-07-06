@@ -28,24 +28,19 @@ body {
     border-style: solid; 
     border-color: gray;
     border-radius: 20px;
-    
 }
 
 header { 
     text-align: center;
-    padding-top: 1px; 
-    padding-bottom: 1px;
-    
-    
 }
 
 nav {
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 footer {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
     width: 100%;
     padding: 20px 30px;
     align-items: center;
